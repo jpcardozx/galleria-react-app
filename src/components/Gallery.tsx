@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { fetchArtworks } from '../services/metApi';
 import { Artwork } from '../types';
-import './styles/Gallery.css'
+import '../styles/Gallery.css';
 import ArtCard from './ArtCard';
 
 const Gallery: React.FC = () => {

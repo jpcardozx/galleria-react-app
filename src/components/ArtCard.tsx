@@ -1,6 +1,6 @@
 import React from 'react';
 import { Artwork } from '../types';
-import './styles/ArtCard.css';
+import '../styles/ArtCard.css';
 
 interface ArtCardProps {
   artwork: Artwork;
