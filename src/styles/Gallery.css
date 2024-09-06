@@ -1,0 +1,65 @@
+/* Gallery Container */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza a galeria */
+  }
+  
+  /* Loading spinner */
+  .spinner {
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .art-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .art-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .art-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .art-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .art-title {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+  }
+  
+  .art-artist {
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0.5rem;
+  }
+  

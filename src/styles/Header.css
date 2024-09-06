@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+  }
+  
+  .logo {
+    font-family: 'Times New Roman', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .slideshow-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+  }
+  

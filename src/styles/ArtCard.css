@@ -1,0 +1,49 @@
+/* Art Card */
+.art-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .art-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .art-card:hover .art-overlay {
+    background: rgba(0, 0, 0, 0.7);  /* Tornar a sobreposição mais escura ao passar o mouse */
+  }
+  
+  .art-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .art-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;  /* Aumentar o espaçamento interno */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Mantém o texto no fim da imagem */
+  }
+  
+  .art-title {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+  
+  .art-artist {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0.5rem;
+    color: #ccc;  /* Cor mais clara para menos contraste com o título */
+  }
+  
